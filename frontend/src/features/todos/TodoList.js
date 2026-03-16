@@ -15,7 +15,7 @@ import {TodoItem} from './TodoItem';
  */
 export function TodoList({todos, onToggle, onDelete}) {
     if (!todos.length) {
-        return <p className="emptyState">No todos here yet.</p>;
+        return <p className="emptyState">No todos yet — add one above to see it here.</p>;
     }
 
     return (
